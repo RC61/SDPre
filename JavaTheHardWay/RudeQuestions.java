@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class RudeQuestions {
 	public static void main( String[] args) {
 		String name;
-		int age;
+		int age, confused;
 		double weight, income;
 
 		Scanner keyboard = new Scanner(System.in);
@@ -19,12 +19,24 @@ public class RudeQuestions {
 		weight = keyboard.nextDouble();
 
 		System.out.println( weight + "! Better keep that quiet!!" );
-		System.out.print( "Finally, what's your income, " + name + "? " );
+		System.out.print( "OK, what's your income, " + name + "? " );
 		income = keyboard.nextDouble();
 
 		System.out.print( "Hopefully that is, " + income + "per hour " );
 		System.out.println( " and not per year! " );
+
+		System.out.print( "Last question. How many times will you become confused while studying Java?" );
+		confused = keyboard.nextInt();
+		System.out.println( "Only " + confused + " times?!? That's not too bad! ");
+
 		System.out.print( "Well, thanks for answering my rude questions, " );
 		System.out.println( name + "." );
+
+/*
+1) The program functions normally when I enter an integer instead of double
+2) The program fucntions normally when I enter a String instead of an int
+3) Entering a combination of String & ints stops the program cold
+4) new variable is "confused"
+*/
 	}
 }
