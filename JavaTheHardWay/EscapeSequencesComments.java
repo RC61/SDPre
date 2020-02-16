@@ -10,7 +10,7 @@ public class EscapeSequencesComments {
 		Quick wafting zephyrs vex bold Jim. */
 		System.out /*  testing */ .println( "Hard to believe, eh?");
 		System.out.println( "Surprised? /* abcde */ Or what did you expect?" );
-		System.out.println( "\\// -=- \\//" );
+		System.out.println( "\\// -=- \\//" ); //took out block comment
 		System.out.println( "\\\\ \\\\\\ \\\\\\\\" ); // it takes 2 to make 1
 		System.out.println( "I hope you understand \"escape sequences\" now.\n" );
 		// and comments. :)
