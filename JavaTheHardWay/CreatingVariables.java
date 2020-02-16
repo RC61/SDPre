@@ -26,7 +26,7 @@ public class CreatingVariables {
 		System.out.println( "A favorite irrational # is Euler's number:" + e );
 		System.out.println( "Hopefully you have more than $" + checking + "!" );
 		System.out.println( "My name's " + title + " " + firstName + lastName );
-    System.out.println( "Here are two extra variables, " + extraInt + "&" + extraDouble );
-    System.out.println( "Here are the other two, " + extraString1 + " " + extraString2 );
+    		System.out.println( "Here are two extra variables, " + extraInt + "&" + extraDouble );
+    		System.out.println( "Here are the other two, " + extraString1 + " " + extraString2 );
 	}
 }
