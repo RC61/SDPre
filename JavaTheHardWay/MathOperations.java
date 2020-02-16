@@ -32,10 +32,10 @@ public class MathOperations {
 		both = one + two;
 		System.out.println( both );
 
-    q = d-a;
-    System.out.println( q );
-    r = a*a/1+a % 10;
-    System.out.println( r );
+    		q = d-a;
+    		System.out.println( q );
+    		r = a*a/1+a % 10;
+    		System.out.println( r );
 
 	}
 }
