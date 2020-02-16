@@ -15,5 +15,8 @@ public class ForgetfulMachine {
 
     System.out.println( "Is there anything else you would like to say?" );
     keyboard.next();
+
+    // Typing in "Forty Two" (for line 11) blows up program
+    // Typing in a string also blows up line 14
 	}
 }
