@@ -11,12 +11,14 @@ public class Objective3Lab3 {
 
     age = input.nextInt();
 
-    birthYear = 2020 - age ;
+    currentYear = 2020;
+
+    birthYear = currentYear - age ;
 
     System.out.println("You were born in " + birthYear);
     input.close();
 
-// This program isn't very accurate, I want to revist later
+// This program isn't very accurate, I want to revist later.
 
   }
 }
