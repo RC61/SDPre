@@ -15,7 +15,7 @@ public class Objective3Lab3 {
 
     birthYear = currentYear - age ;
 
-    System.out.println("You were born in " + birthYear);
+    System.out.println("You were *probably* born in " + birthYear);
     input.close();
 
 // This program isn't very accurate, I want to revist later.
