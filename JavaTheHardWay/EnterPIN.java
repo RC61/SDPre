@@ -15,8 +15,9 @@ public class EnterPIN {
     entry2 = keyboard.next();
 
     while ( !entry2.equals(typedPassword)) {
-      System.out.println("/nINCORRECT PASSWORD. TRY AGAIN.");
+      System.out.println("\nINCORRECT PASSWORD. TRY AGAIN.");
       System.out.print("ENTER YOUR PASSWORD: ");
+      entry2 = keyboard.next();
     }
 
     System.out.println("\nPASSWORD ACCEPTED.");
