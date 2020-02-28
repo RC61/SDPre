@@ -11,9 +11,6 @@ public class RunningTotal {
     System.out.print("Type a bunch of values and I'll add them up. ");
     System.out.println("I'll stop when you type in a zero.");
 
-
-
-
     while ( current != 0 || ( total == 0 )) {
       System.out.print("Value: ");
       current = keyboard.nextInt();
